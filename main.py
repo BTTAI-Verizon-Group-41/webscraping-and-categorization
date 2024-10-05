@@ -8,20 +8,24 @@ from bs4 import BeautifulSoup
 scraper = cloudscraper.create_scraper()
 headers = {'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'}
 
-URL = "https://www.amazon.com/"
+URL = "https://bankrate.com"
 try:
     r = scraper.get(URL, headers=headers)
     soup = BeautifulSoup(r.text, 'html.parser')
     title = soup.find('title').text
     description = soup.find('meta', attrs={'name': 'description'})
+    print("hellll")
  
     if "content" in str(description):
         description = description.get("content")
+        print("success")
     else:
         description = ""
+        print("failure")
  
  
     h1 = soup.find_all('h1')
+    print("h1")
     h1_all = ""
     for x in range (len(h1)):
         if x ==  len(h1) -1:
@@ -61,6 +65,7 @@ try:
     allthecontent = ""
     allthecontent = str(title) + " " + str(description) + " " + str(h1_all) + " " + str(h2_all) + " " + str(h3_all) + " " + str(paragraphs_all)
     allthecontent = str(allthecontent)[0:999]
+    print(allthecontent)
  
 except Exception as e:
         print(e)
