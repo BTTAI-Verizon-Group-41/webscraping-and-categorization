@@ -12,13 +12,15 @@ URL = "https://www.amazon.com/"
 try:
     r = scraper.get(URL, headers=headers)
     soup = BeautifulSoup(r.text, 'html.parser')
-    title = soup.find('title').text
-    description = soup.find('meta', attrs={'name': 'description'})
+    print(soup)
+    title = soup.find('title') #.text
+    print(title)
+    description = soup.find('meta', attrs={'name': 'description'}) #.text
  
-    if "content" in str(description):
-        description = description.get("content")
-    else:
-        description = ""
+    # if "content" in str(description):
+    #     description = description.get("content")
+    # else:
+    #     description = ""
  
  
     h1 = soup.find_all('h1')
@@ -66,9 +68,10 @@ except Exception as e:
         print(e)
 
 translator = Translator()
- 
+translation = "" # solved error: name 'translation' is not defined
+
 try:
-        translation = translator.translate(allthecontent).text
+        translation = translator.translate(allthecontent) #.text
         translation = str(translation)[0:999]
         time.sleep(10)
         # print(translation)
@@ -76,7 +79,7 @@ try:
 except Exception as e:
         print(e)
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"C:\Users\tiazh\Downloads\verizon-webscraping-test-fa33e5bd3c51.json"
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"D:\Desktop\bttai\fall project\verizon-webscraping-test-fa33e5bd3c51.json"
  
 try:
         text_content = str(translation)[0:1000]
