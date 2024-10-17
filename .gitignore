@@ -9,3 +9,6 @@ __pycache__/
 
 # Miscellaneous
 *.log
+
+#ignore the input csv
+categorizedurls.csv
