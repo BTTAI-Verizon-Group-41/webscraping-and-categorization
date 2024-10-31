@@ -7,4 +7,4 @@ df = pd.read_csv('categorizedurls.csv', header = 0)
 df['url_ending'] = df['url'].str.split('.').str[-1]
 
 # Save the result (one column, same order) to a new csv file
-df[['url_ending']].to_csv('test_feature.csv', index=False)
+df[['url_ending']].to_csv('output_with_url_endings.csv', index=False)

@@ -1,4 +1,6 @@
-# pip install selenium
+# pip install selenium (applicable to dynamic websites)
+# Modify path_to_your_chromedriver
+# Didn't test whether this piece of code would work
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
