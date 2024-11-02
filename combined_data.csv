@@ -1,0 +1,1001 @@
+url,Sentiment Score,Sentiment Magnitude,url_ending,category
+google.com,0.6000000238418579,1.2999999523162842,com,Search Engines
+googleapis.com,-0.5,3.5,com,Content Delivery Networks
+apple.com,0.1000000014901161,11.399999618530272,com,Computer and Internet Info
+icloud.com,,,com,Online Storage and Backup
+facebook.com,-0.2000000029802322,0.2000000029802322,com,Social Networking
+youtube.com,0.5,0.5,com,Streaming Media
+googletagservices.com,,,com,Web Advertisements
+amazon.com,0.4000000059604645,4.199999809265137,com,Shopping
+sc-static.net,,,net,Content Delivery Networks
+t.co,0.3000000119209289,0.3000000119209289,co,Internet Communications and Telephony
+unpkg.com,,,com,Computer and Internet Info
+paypalobjects.com,,,com,Financial Services
+linkedin.com,,,com,Social Networking
+pandora.com,,,com,Shopping
+reddit.com,,,com,Social Networking
+bing.com,,,com,Search Engines
+weather.com,,,com,News
+instagram.com,,,com,Social Networking
+walmart.com,,,com,Shopping
+paypal.com,,,com,Financial Services
+sentry.io,,,io,Computer and Internet Info
+tiktok.com,,,com,Social Networking
+chase.com,,,com,Financial Services
+nytimes.com,,,com,News
+twitter.com,,,com,Social Networking
+discord.com,,,com,Internet Communications and Telephony
+zillow.com,,,com,Real Estate
+mcdonalds.com,,,com,Business and Economy
+peacocktv.com,,,com,Streaming Media
+appboy-images.com,,,com,Content Delivery Networks
+duckduckgo.com,,,com,Search Engines
+slack.com,,,com,Internet Communications and Telephony
+wellsfargo.com,,,com,Financial Services
+hulu.com,,,com,Streaming Media
+verizon.com,,,com,Internet Communications and Telephony
+statefarm.com,,,com,Financial Services
+disneyplus.com,,,com,Streaming Media
+samsung.com,,,com,Business and Economy
+yahoo.com,,,com,Internet Portals
+espn.com,,,com,Sports
+airbnb.com,,,com,Travel
+zillowstatic.com,,,com,Real Estate
+nextdoor.com,,,com,Social Networking
+accuweather.com,,,com,Weather
+tacobell.com,,,com,Food and Dining
+etsy.com,,,com,Shopping
+bestbuy.com,,,com,Shopping
+cnn.com,,,com,News
+bit.ly,,,ly,Internet Communications and Telephony
+fandango.com,,,com,Entertainment and Arts
+att.com,,,com,Internet Communications and Telephony
+nypost.com,,,com,News
+pinterest.com,,,com,Social Networking
+homedepot.com,,,com,Shopping
+target.com,,,com,Shopping
+cloudflare.com,,,com,Content Delivery Networks
+nike.com,,,com,Shopping
+life360.com,,,com,Social Networking
+imdb.com,,,com,Entertainment and Arts
+mlbstatic.com,,,com,Sports
+whatsapp.com,,,com,Internet Communications and Telephony
+expedia.com,,,com,Travel
+instacart.com,,,com,Shopping
+foxnews.com,,,com,News
+cvs.com,,,com,Health and Medicine
+ebay.com,,,com,Shopping
+people.com,,,com,Entertainment and Arts
+lowes.com,,,com,Home and Garden
+roblox.com,,,com,Games
+disqus.com,,,com,Internet Communications and Telephony
+indeed.com,,,com,Job Search
+usatoday.com,,,com,News
+stripe.com,,,com,Financial Services
+tripadvisor.com,,,com,Travel
+usps.com,,,com,Government
+newsweek.com,,,com,News
+ticketmaster.com,,,com,Entertainment and Arts
+snapchat.com,,,com,Social Networking
+msn.com,,,com,Internet Portals
+navyfederal.org,,,org,Financial Services
+coca-cola.com,,,com,Food and Beverage
+vimeo.com,,,com,Streaming Media
+coinbase.com,,,com,Cryptocurrency
+chipotle.com,,,com,Shopping
+kroger.com,,,com,Shopping
+zoom.us,,,us,Internet Communications and Telephony
+kohls.com,,,com,Shopping
+ups.com,,,com,Business and Economy
+realtor.com,,,com,Real Estate
+costco.com,,,com,Shopping
+quora.com,,,com,Social Networking
+nbcnews.com,,,com,News
+redfin.com,,,com,Real Estate
+adobe.com,,,com,Computer and Internet Info
+onesignal.com,,,com,Computer and Internet Info
+ulta.com,,,com,Shopping
+mlb.com,,,com,Sports
+wayfair.com,,,com,Shopping
+sephora.com,,,com,Shopping
+microsoft.com,,,com,Computer and Internet Info
+paramountplus.com,,,com,Streaming Media
+washingtonpost.com,,,com,News
+vivintsky.com,,,com,Business and Economy
+dropbox.com,,,com,Internet Communications and Telephony
+fidelity.com,,,com,Financial Services
+cbssports.com,,,com,Sports
+homes.com,,,com,Real Estate
+geico.com,,,com,Financial Services
+forbes.com,,,com,Business and Economy
+cnbc.com,,,com,Business and Economy
+dickssportinggoods.com,,,com,Shopping
+hilton.com,,,com,Travel
+capitalone.com,,,com,Financial Services
+fedex.com,,,com,Business and Economy
+netflix.com,,,com,Streaming Media
+yelp.com,,,com,Social Networking
+patreon.com,,,com,Social Networking
+marriott.com,,,com,Travel
+walgreens.com,,,com,Shopping
+foxbusiness.com,,,com,News
+t-mobile.com,,,com,Internet Communications and Telephony
+cbsnews.com,,,com,News
+southwest.com,,,com,Travel
+si.com,,,com,Sports
+vrbo.com,,,com,Travel
+vsco.co,,,co,Social Networking
+planetfitness.com,,,com,Recreation and Hobbies
+hotels.com,,,com,Travel
+newbalance.com,,,com,Shopping
+safeway.com,,,com,Shopping
+americanexpress.com,,,com,Financial Services
+apnews.com,,,com,News
+toyota.com,,,com,Motor Vehicles
+verizonwireless.com,,,com,Internet Communications and Telephony
+crunchyroll.com,,,com,Entertainment and Arts
+xfinity.com,,,com,Internet Communications and Telephony
+macys.com,,,com,Shopping
+creditkarma.com,,,com,Financial Services
+aa.com,,,com,Travel
+vans.com,,,com,Shopping
+weebly.com,,,com,Computer and Internet Info
+ubereats.com,,,com,Food Delivery
+gofundme.com,,,com,Financial Services
+mms.com,,,com,Entertainment and Arts
+cox.com,,,com,Internet Communications and Telephony
+victoriassecret.com,,,com,Shopping
+buzzfeed.com,,,com,News
+paycomonline.net,,,net,Business and Economy
+shopify.com,,,com,Business and Economy
+cargurus.com,,,com,Motor Vehicles
+chewy.com,,,com,Shopping
+gm.com,,,com,Motor Vehicles
+squareup.com,,,com,Business and Economy
+fbsbx.com,,,com,Social Networking
+discover.com,,,com,Financial Services
+digitalinsight.com,,,com,Business and Economy
+klaviyo.com,,,com,Business and Economy
+starz.com,,,com,Entertainment and Arts
+wsj.com,,,com,News
+betterhelp.com,,,com,Health and Medicine
+tomsguide.com,,,com,Computer and Internet Info
+samsclub.com,,,com,Shopping
+allrecipes.com,,,com,Home and Garden
+edmunds.com,,,com,Motor Vehicles
+chick-fil-a.com,,,com,Food and Dining
+booking.com,,,com,Travel
+eventbrite.com,,,com,Entertainment and Arts
+canva.com,,,com,Computer and Internet Info
+creditonebank.com,,,com,Financial Services
+healthline.com,,,com,Health and Medicine
+bbc.com,,,com,News
+trulia.com,,,com,Real Estate
+huffpost.com,,,com,News
+craigslist.org,,,org,Shopping
+spotify.com,,,com,Music
+delta.com,,,com,Travel
+bleacherreport.com,,,com,Sports
+pagesix.com,,,com,Entertainment and Arts
+browser-update.org,,,org,Malware
+marketwatch.com,,,com,Business and Economy
+businessinsider.com,,,com,Business and Economy
+stubhub.com,,,com,Shopping
+jackinthebox.com,,,com,Food and Dining
+goodreads.com,,,com,Entertainment and Arts
+opentable.com,,,com,Food and Dining
+myworkday.com,,,com,Business and Economy
+banno.com,,,com,Financial Services
+huntington.com,,,com,Financial Services
+mayoclinic.org,,,org,Health and Medicine
+screenrant.com,,,com,Entertainment and Arts
+iheart.com,,,com,Music
+priceline.com,,,com,Travel
+applebees.com,,,com,Food and Dining
+goat.com,,,com,Shopping
+webmd.com,,,com,Health and Medicine
+classdojo.com,,,com,Educational Institutions
+kbb.com,,,com,Motor Vehicles
+nativecos.com,,,com,Shopping
+dhresource.com,,,com,Shopping
+ford.com,,,com,Motor Vehicles
+teencounseling.com,,,com,Health and Medicine
+usmagazine.com,,,com,Entertainment and Arts
+nbcolympics.com,,,com,Sports
+ae.com,,,com,Shopping
+amzn.to,,,to,Shopping
+ikea.com,,,com,Shopping
+axs.com,,,com,Entertainment and Arts
+progressive.com,,,com,Financial Services
+fitbit.com,,,com,Shopping
+npr.org,,,org,News
+politico.com,,,com,News
+variety.com,,,com,Entertainment and Arts
+legacy.com,,,com,Society
+github.com,,,com,Computer and Internet Info
+thehill.com,,,com,News
+hellofresh.com,,,com,Shopping
+strava.com,,,com,Sports
+jcpenney.com,,,com,Shopping
+autotrader.com,,,com,Motor Vehicles
+regions.com,,,com,Financial Services
+fareharbor.com,,,com,Travel
+nordstrom.com,,,com,Shopping
+soundcloud.com,,,com,Music
+al.com,,,com,News
+wingstop.com,,,com,Shopping
+michaels.com,,,com,Shopping
+newsbreak.com,,,com,News
+usaa.com,,,com,Financial Services
+reuters.com,,,com,News
+gocarrot.com,,,com,Motor Vehicles
+merriam-webster.com,,,com,Reference and Research
+harborfreight.com,,,com,Shopping
+axios.com,,,com,News
+rakuten.com,,,com,Shopping
+foxsports.com,,,com,Sports
+dailymotion.com,,,com,Streaming Media
+travelocity.com,,,com,Travel
+weatherlive.info,,,info,News
+nj.com,,,com,News
+alarm.com,,,com,Business and Economy
+today.com,,,com,News
+arcgis.com,,,com,Business and Economy
+dominos.com,,,com,Food and Beverage
+orbitz.com,,,com,Travel
+seatgeek.com,,,com,Business and Economy
+panerabread.com,,,com,Food and Beverage
+autozone.com,,,com,Motor Vehicles
+lilly.com,,,com,Health and Medicine
+weightwatchers.com,,,com,Health and Medicine
+chess.com,,,com,Games
+twitch.tv,,,tv,Streaming Media
+usbank.com,,,com,Financial Services
+bathandbodyworks.com,,,com,Shopping
+poshmark.com,,,com,Shopping
+mlive.com,,,com,News
+theguardian.com,,,com,News
+patch.com,,,com,News
+genius.com,,,com,Entertainment and Arts
+mytherapist.com,,,com,Health and Medicine
+volvocars.com,,,com,Motor Vehicles
+imgur.com,,,com,Internet Portals
+carfax.com,,,com,Motor Vehicles
+tdbank.com,,,com,Financial Services
+fox8.com,,,com,News
+sfgate.com,,,com,News
+apartments.com,,,com,Real Estate
+fandom.com,,,com,Entertainment and Arts
+papajohns.com,,,com,Food and Dining
+aeropostale.com,,,com,Shopping
+jetblue.com,,,com,Travel
+sofi.com,,,com,Financial Services
+cars.com,,,com,Motor Vehicles
+waze.com,,,com,Travel
+cinemark.com,,,com,Entertainment and Arts
+deadline.com,,,com,News
+blogger.com,,,com,Internet Portals
+venmo.com,,,com,Financial Services
+livenation.com,,,com,Entertainment and Arts
+medicalnewstoday.com,,,com,Health and Medicine
+clorox.com,,,com,Home and Garden
+mynetdiary.com,,,com,Health and Medicine
+meijer.com,,,com,Shopping
+united.com,,,com,Travel
+homeaway.com,,,com,Travel
+steamcommunity.com,,,com,Games
+lego.com,,,com,Shopping
+medium.com,,,com,Social Networking
+elfcosmetics.com,,,com,Shopping
+wattpad.com,,,com,Entertainment and Arts
+giphy.com,,,com,Entertainment and Arts
+hillspet.com,,,com,Shopping
+footlocker.com,,,com,Shopping
+justanswer.com,,,com,Internet Communications and Telephony
+doordash.com,,,com,Food and Drink
+sonicdrivein.com,,,com,Food and Drink
+menards.com,,,com,Shopping
+dailydot.com,,,com,News
+signupgenius.com,,,com,Internet Communications and Telephony
+barrons.com,,,com,Business and Economy
+evite.com,,,com,Internet Communications and Telephony
+kayak.com,,,com,Travel
+groupon.com,,,com,Shopping
+lastpass.com,,,com,Computer and Internet Info
+hollisterco.com,,,com,Shopping
+weather.gov,,,gov,Reference and Research
+bose.com,,,com,Shopping
+eonline.com,,,com,Entertainment and Arts
+joann.com,,,com,Shopping
+synchrony.com,,,com,Financial Services
+nbcnewyork.com,,,com,News
+abercrombie.com,,,com,Shopping
+aol.com,,,com,Internet Portals
+ea.com,,,com,Games
+zaxbys.com,,,com,Shopping
+fabletics.com,,,com,Shopping
+royalcanin.com,,,com,Shopping
+static-jcpenney.com,,,com,Shopping
+vanityfair.com,,,com,Entertainment and Arts
+chevrolet.com,,,com,Motor Vehicles
+sbnation.com,,,com,Sports
+latimes.com,,,com,News
+fortune.com,,,com,Business and Economy
+tmz.com,,,com,Entertainment and Arts
+williams-sonoma.com,,,com,Shopping
+hollywoodreporter.com,,,com,Entertainment and Arts
+ring.com,,,com,Smart Home
+usnews.com,,,com,News
+easyfoodstamps.com,,,com,Government
+newyorker.com,,,com,News
+tractorsupply.com,,,com,Shopping
+pizzahut.com,,,com,Shopping
+potterybarn.com,,,com,Shopping
+rollingstone.com,,,com,Entertainment and Arts
+dayforcehcm.com,,,com,Business and Economy
+amctheatres.com,,,com,Entertainment and Arts
+acehardware.com,,,com,Shopping
+ew.com,,,com,Entertainment and Arts
+bankofamerica.com,,,com,Financial Services
+rover.com,,,com,Pet Services
+huggies.com,,,com,Shopping
+anchor.fm,,,fm,Internet Communications and Telephony
+dhs.gov,,,gov,Government
+babylist.com,,,com,Shopping
+wikihow.com,,,com,Reference and Research
+thekitchn.com,,,com,Home and Garden
+albertsons.com,,,com,Shopping
+bluebuffalo.com,,,com,Shopping
+biblegateway.com,,,com,Religion
+viator.com,,,com,Travel
+patagonia.com,,,com,Shopping
+vogue.com,,,com,Entertainment and Arts
+theknot.com,,,com,Recreation and Hobbies
+brilliantearth.com,,,com,Shopping
+bedbathandbeyond.com,,,com,Shopping
+alaskaair.com,,,com,Travel
+firstenergycorp.com,,,com,Business and Economy
+academy.com,,,com,Shopping
+vagaro.com,,,com,Business and Economy
+thestreet.com,,,com,Business and Economy
+shoecarnival.com,,,com,Shopping
+mapquest.com,,,com,Travel
+telegram.org,,,org,Internet Communications and Telephony
+wish.com,,,com,Shopping
+newsmax.com,,,com,News
+ktla.com,,,com,News
+spot.im,,,im,Internet Communications and Telephony
+boredpanda.com,,,com,Entertainment and Arts
+adidas.com,,,com,Shopping
+calendly.com,,,com,Internet Communications and Telephony
+dairyqueen.com,,,com,Food and Beverage
+office.com,,,com,Computer and Internet Info
+vividseats.com,,,com,Shopping
+wral.com,,,com,News
+wix.com,,,com,Computer and Internet Info
+shutterstock.com,,,com,Shopping
+ip-api.com,,,com,Computer and Internet Info
+publix.com,,,com,Shopping
+fashionnova.com,,,com,Shopping
+buffalowildwings.com,,,com,Shopping
+rei.com,,,com,Shopping
+dollargeneral.com,,,com,Shopping
+gamerant.com,,,com,Games
+arbys.com,,,com,Shopping
+nfl.com,,,com,Sports
+msnbc.com,,,com,News
+wired.com,,,com,News
+hoka.com,,,com,Shopping
+bonappetit.com,,,com,Home and Garden
+gamesradar.com,,,com,Games
+klarna.com,,,com,Financial Services
+heinz.com,,,com,Shopping
+dell.com,,,com,Shopping
+pitchfork.com,,,com,Entertainment and Arts
+blk-app.com,,,com,Social Networking
+petsmart.com,,,com,Shopping
+hobbylobby.com,,,com,Shopping
+ign.com,,,com,Games
+surveymonkey.com,,,com,Business and Economy
+glamour.com,,,com,Entertainment and Arts
+basspro.com,,,com,Shopping
+pennlive.com,,,com,News
+zara.com,,,com,Shopping
+starbucks.com,,,com,Food and Beverage
+motorola.com,,,com,Technology
+crunch.com,,,com,Sports and Fitness
+universalorlando.com,,,com,Travel
+carvana.com,,,com,Motor Vehicles
+extreme-ip-lookup.com,,,com,Computer and Internet Info
+citizensbank.com,,,com,Financial Services
+gq.com,,,com,Entertainment and Arts
+goodhousekeeping.com,,,com,Home and Garden
+self.com,,,com,Health and Medicine
+dsw.com,,,com,Shopping
+calculator.net,,,net,Reference and Research
+allure.com,,,com,Entertainment and Arts
+bloomberg.com,,,com,Business and Economy
+uber.com,,,com,Business and Economy
+breitbart.com,,,com,News
+247sports.com,,,com,Sports
+cntraveler.com,,,com,Travel
+ashleyfurniture.com,,,com,Shopping
+dictionary.com,,,com,Reference and Research
+nintendo.com,,,com,Games
+cleveland.com,,,com,News
+pacsun.com,,,com,Shopping
+anthropologie.com,,,com,Shopping
+ssa.gov,,,gov,Government
+epicurious.com,,,com,Food and Drink
+rottentomatoes.com,,,com,Entertainment and Arts
+fanduel.com,,,com,Gambling
+goodrx.com,,,com,Health and Medicine
+audible.com,,,com,Entertainment and Arts
+subway.com,,,com,Food and Drink
+hudl.com,,,com,Sports
+ancestry.com,,,com,Reference and Research
+formstack.com,,,com,Business and Economy
+hp.com,,,com,Computer and Internet Info
+tradingview.com,,,com,Stock Advice and Tools
+billboard.com,,,com,Entertainment and Arts
+sleepwatchapp.com,,,com,Health and Medicine
+americanhometownmedia.com,,,com,News
+foodlion.com,,,com,Shopping
+universalstudioshollywood.com,,,com,Travel
+carmax.com,,,com,Motor Vehicles
+allstate.com,,,com,Financial Services
+cdc.gov,,,gov,Government
+tenor.com,,,com,Entertainment and Arts
+dutchbros.com,,,com,Food and Drink
+southernliving.com,,,com,Home and Garden
+foodnetwork.com,,,com,Entertainment and Arts
+thedailybeast.com,,,com,News
+robinhood.com,,,com,Financial Services
+wyndhamhotels.com,,,com,Travel
+rossstores.com,,,com,Shopping
+qvc.com,,,com,Shopping
+theepochtimes.com,,,com,News
+nordstromrack.com,,,com,Shopping
+miamiherald.com,,,com,News
+verywellhealth.com,,,com,Health and Medicine
+ihg.com,,,com,Travel
+saksfifthavenue.com,,,com,Shopping
+grainger.com,,,com,Business and Economy
+tickets-center.com,,,com,Entertainment and Arts
+researchgate.net,,,net,Reference and Research
+intel.com,,,com,Computer and Internet Info
+tillys.com,,,com,Shopping
+gap.com,,,com,Shopping
+boostmobile.com,,,com,Internet Communications and Telephony
+dhgate.com,,,com,Shopping
+pandaexpress.com,,,com,Shopping
+spectrum.com,,,com,Internet Communications and Telephony
+amtrak.com,,,com,Travel
+levi.com,,,com,Shopping
+freep.com,,,com,News
+fanatics.com,,,com,Shopping
+teacherspayteachers.com,,,com,Educational Institutions
+thrivemarket.com,,,com,Shopping
+myfinance.com,,,com,Financial Services
+53.com,,,com,Financial Services
+uscellular.com,,,com,Internet Communications and Telephony
+simplyrecipes.com,,,com,Home and Garden
+heavy.com,,,com,News
+enterprise.com,,,com,Motor Vehicles
+baidu.com,,,com,Search Engines
+delish.com,,,com,Home and Garden
+aarp.org,,,org,Society
+siriusxm.com,,,com,Music
+eatingwell.com,,,com,Health and Medicine
+cosmopolitan.com,,,com,Entertainment and Arts
+mysynchrony.com,,,com,Financial Services
+belk.com,,,com,Shopping
+drudgereport.com,,,com,News
+mercurynews.com,,,com,News
+britannica.com,,,com,Reference and Research
+oreillyauto.com,,,com,Motor Vehicles
+shutterfly.com,,,com,Shopping
+jewelosco.com,,,com,Shopping
+wholefoodsmarket.com,,,com,Shopping
+motortrend.com,,,com,Motor Vehicles
+notion.so,,,so,Internet Communications and Telephony
+collider.com,,,com,Entertainment and Arts
+womenshealthmag.com,,,com,Health and Medicine
+glassdoor.com,,,com,Job Search
+cnet.com,,,com,Computer and Internet Info
+va.gov,,,gov,Government
+spectrum.net,,,net,Internet Communications and Telephony
+hometalk.com,,,com,Home and Garden
+pnc.com,,,com,Financial Services
+bandsintown.com,,,com,Entertainment and Arts
+bankrate.com,,,com,Financial Services
+lulus.com,,,com,Shopping
+sixflags.com,,,com,Recreation and Hobbies
+onenote.com,,,com,Computer and Internet Info
+foodandwine.com,,,com,Food and Drink
+wearfigs.com,,,com,Shopping
+milb.com,,,com,Sports
+archive.org,,,org,Internet Portals
+dillards.com,,,com,Shopping
+hibbett.com,,,com,Shopping
+irs.gov,,,gov,Government
+remind.com,,,com,Internet Communications and Telephony
+onemainfinancial.com,,,com,Financial Services
+wunderground.com,,,com,News
+aaa.com,,,com,Travel
+underarmour.com,,,com,Shopping
+issuu.com,,,com,Content Delivery Networks
+petco.com,,,com,Shopping
+freepeople.com,,,com,Shopping
+frysfood.com,,,com,Shopping
+justapinch.com,,,com,Home and Garden
+nbcsports.com,,,com,Sports
+disney.com,,,com,Entertainment and Arts
+deviantart.com,,,com,Entertainment and Arts
+investopedia.com,,,com,Business and Economy
+citi.com,,,com,Financial Services
+quizlet.com,,,com,Educational Institutions
+azcentral.com,,,com,News
+nbcchicago.com,,,com,News
+pcgamer.com,,,com,Games
+royalcaribbean.com,,,com,Travel
+raymourflanigan.com,,,com,Shopping
+flightaware.com,,,com,Travel
+dailywire.com,,,com,News
+ziprecruiter.com,,,com,Job Search
+openweathermap.org,,,org,Reference and Research
+healthgrades.com,,,com,Health and Medicine
+setlist.fm,,,fm,Music
+relish.com,,,com,Food & Drink
+vw.com,,,com,Motor Vehicles
+overcast.fm,,,fm,Internet Communications and Telephony
+popeyes.com,,,com,Food & Drink
+skechers.com,,,com,Shopping
+kensington.com,,,com,Computer and Internet Info
+nissanusa.com,,,com,Motor Vehicles
+thespruce.com,,,com,Home and Garden
+aliexpress.com,,,com,Shopping
+clickondetroit.com,,,com,News
+potterybarnkids.com,,,com,Shopping
+ajc.com,,,com,News
+qualcomm.com,,,com,Business and Economy
+paperlesspost.com,,,com,Internet Communications and Telephony
+univision.com,,,com,Entertainment and Arts
+regmovies.com,,,com,Entertainment and Arts
+bovada.lv,,,lv,Gambling
+dignitymemorial.com,,,com,Society
+subaru.com,,,com,Motor Vehicles
+unity3d.com,,,com,Computer and Internet Info
+cabelas.com,,,com,Shopping
+brooksrunning.com,,,com,Shopping
+famousfootwear.com,,,com,Shopping
+westelm.com,,,com,Shopping
+movoto.com,,,com,Real Estate
+staples.com,,,com,Shopping
+barstoolsports.com,,,com,Sports
+burlington.com,,,com,Shopping
+bk.com,,,com,Food and Dining
+uhaul.com,,,com,Business and Economy
+littlecaesars.com,,,com,Business and Economy
+jcrew.com,,,com,Shopping
+choicehotels.com,,,com,Travel
+schwab.com,,,com,Financial Services
+kfc.com,,,com,Business and Economy
+astound.com,,,com,Internet Communications and Telephony
+thriftbooks.com,,,com,Shopping
+wkyc.com,,,com,News
+stopandshop.com,,,com,Shopping
+1800contacts.com,,,com,Shopping
+caranddriver.com,,,com,Motor Vehicles
+maxpreps.com,,,com,Sports
+michigan.gov,,,gov,Government
+masslive.com,,,com,News
+yammer.com,,,com,Social Networking
+tasteofhome.com,,,com,Home and Garden
+addictpodcast.com,,,com,Health and Medicine
+loves.com,,,com,Travel
+michiganlottery.com,,,com,Gambling
+pbs.org,,,org,Entertainment and Arts
+jimmyjohns.com,,,com,Shopping
+revolve.com,,,com,Shopping
+onepeloton.com,,,com,Shopping
+express.com,,,com,Shopping
+philo.com,,,com,Streaming Media
+plex.tv,,,tv,Streaming Media
+smartasset.com,,,com,Financial Services
+flexmls.com,,,com,Real Estate
+syracuse.com,,,com,News
+ralphlauren.com,,,com,Shopping
+wgntv.com,,,com,News
+sling.com,,,com,Streaming Media
+crocs.com,,,com,Shopping
+travelandleisure.com,,,com,Travel
+mercari.com,,,com,Shopping
+time.com,,,com,News
+fivethirtyeight.com,,,com,News
+rawstory.com,,,com,News
+childrensplace.com,,,com,Shopping
+ky3.com,,,com,News
+barnesandnoble.com,,,com,Shopping
+totalwine.com,,,com,Shopping
+nespresso.com,,,com,Shopping
+coachoutlet.com,,,com,Shopping
+windy.com,,,com,Reference and Research
+rockauto.com,,,com,Shopping
+calottery.com,,,com,Gambling
+experian.com,,,com,Financial Services
+hopkinsmedicine.org,,,org,Health and Medicine
+chilis.com,,,com,Travel
+zappos.com,,,com,Shopping
+governmentjobs.com,,,com,Job Search
+alltrails.com,,,com,Recreation and Hobbies
+gymshark.com,,,com,Shopping
+mgmresorts.com,,,com,Travel
+buzzfeednews.com,,,com,News
+wsbtv.com,,,com,News
+wikipedia.org,,,org,Reference and Research
+jacklinks.com,,,com,Shopping
+ncl.com,,,com,Travel
+directv.com,,,com,Internet Communications and Telephony
+cincinnati.com,,,com,News
+ozempic.com,,,com,Health and Medicine
+thepioneerwoman.com,,,com,Personal Sites and Blogs
+bloomingdales.com,,,com,Shopping
+jotform.com,,,com,Computer and Internet Info
+fordpass.com,,,com,Motor Vehicles
+inverse.com,,,com,News
+evernote.com,,,com,Internet Communications and Telephony
+alibaba.com,,,com,Shopping
+slacker.com,,,com,Music
+theatlantic.com,,,com,News
+nj.gov,,,gov,Government
+casetify.com,,,com,Shopping
+neimanmarcus.com,,,com,Shopping
+docusign.net,,,net,Business and Economy
+fredmeyer.com,,,com,Shopping
+sweetwater.com,,,com,Shopping
+pof.com,,,com,Dating
+instyle.com,,,com,Entertainment and Arts
+nydailynews.com,,,com,News
+eventbriteapi.com,,,com,Content Delivery Networks
+speedtest.net,,,net,Computer and Internet Info
+chicagotribune.com,,,com,News
+adp.com,,,com,Business and Economy
+trello.com,,,com,Business and Economy
+podbean.com,,,com,Streaming Media
+urbandictionary.com,,,com,Reference and Research
+theblaze.com,,,com,News
+biglots.com,,,com,Shopping
+myfitnesspal.com,,,com,Health and Medicine
+finishline.com,,,com,Shopping
+wwd.com,,,com,News
+bizjournals.com,,,com,News
+oregonlive.com,,,com,News
+carparts.com,,,com,Shopping
+libertymutual.com,,,com,Financial Services
+hyatt.com,,,com,Travel
+nbc.com,,,com,Entertainment and Arts
+bbb.org,,,org,Business and Economy
+usajobs.gov,,,gov,Government
+maurices.com,,,com,Shopping
+tesla.com,,,com,Motor Vehicles
+invesco.com,,,com,Financial Services
+houzz.com,,,com,Home and Garden
+noom.com,,,com,Health and Medicine
+metv.com,,,com,Entertainment and Arts
+grubhub.com,,,com,Shopping
+newsbreakapp.com,,,com,News
+slickdeals.net,,,net,Shopping
+llbean.com,,,com,Shopping
+mapmyfitness.com,,,com,Sports
+outlook.com,,,com,Internet Communications and Telephony
+docusign.com,,,com,Business and Economy
+lyft.com,,,com,Travel
+seekingalpha.com,,,com,Business and Economy
+prevention.com,,,com,Health and Medicine
+thesaurus.com,,,com,Reference and Research
+shein.com,,,com,Shopping
+anthem.com,,,com,Health and Medicine
+turo.com,,,com,Travel
+countryliving.com,,,com,Home and Garden
+spirit.com,,,com,Travel
+familysearch.org,,,org,Reference and Research
+startribune.com,,,com,News
+wtop.com,,,com,News
+teamapp.com,,,com,Business and Economy
+medlineplus.gov,,,gov,Health and Medicine
+vudu.com,,,com,Streaming Media
+thechive.com,,,com,Entertainment and Arts
+sciencealert.com,,,com,Science and Technology
+live.com,,,com,Internet Portals
+clover.com,,,com,Business and Economy
+menshealth.com,,,com,Health and Medicine
+lenovo.com,,,com,Computer and Internet Info
+cbs.com,,,com,Entertainment and Arts
+getyourguide.com,,,com,Travel
+discord.gg,,,gg,Internet Communications and Telephony
+famousbirthdays.com,,,com,Entertainment and Arts
+chime.com,,,com,Financial Services
+kickstarter.com,,,com,Business and Economy
+ultimate-guitar.com,,,com,Music
+jobs2careers.com,,,com,Job Search
+meetcleo.com,,,com,Financial Services
+abc7.com,,,com,News
+lendingtree.com,,,com,Financial Services
+tennessean.com,,,com,News
+classmates.com,,,com,Social Networking
+popularmechanics.com,,,com,Recreation and Hobbies
+homegoods.com,,,com,Shopping
+dunkindonuts.com,,,com,Shopping
+slate.com,,,com,News
+culvers.com,,,com,Shopping
+investors.com,,,com,Business and Economy
+hsn.com,,,com,Shopping
+hollywoodlife.com,,,com,Entertainment and Arts
+theverge.com,,,com,News
+marines.com,,,com,Military
+kansascity.com,,,com,News
+thelist.com,,,com,Entertainment and Arts
+urbanoutfitters.com,,,com,Shopping
+nerdwallet.com,,,com,Financial Services
+nascar.com,,,com,Sports
+loopnet.com,,,com,Real Estate
+bostonglobe.com,,,com,News
+converse.com,,,com,Shopping
+resy.com,,,com,Business and Economy
+asos.com,,,com,Shopping
+sun-sentinel.com,,,com,News
+avis.com,,,com,Travel
+tvguide.com,,,com,Entertainment and Arts
+summitracing.com,,,com,Shopping
+bhg.com,,,com,Home and Garden
+galottery.com,,,com,Gambling
+uline.com,,,com,Shopping
+champssports.com,,,com,Shopping
+sunnyd.com,,,com,Business and Economy
+ally.com,,,com,Financial Services
+marthastewart.com,,,com,Home and Garden
+tripit.com,,,com,Travel
+sciencedirect.com,,,com,Reference and Research
+clever.com,,,com,Educational Institutions
+local12.com,,,com,News
+health.com,,,com,Health and Medicine
+fool.com,,,com,Stock Advice and Tools
+ranker.com,,,com,Entertainment and Arts
+stitchfix.com,,,com,Shopping
+babycenter.com,,,com,Health and Medicine
+bandcamp.com,,,com,Music
+fivebelow.com,,,com,Shopping
+dispatch.com,,,com,News
+tampabay.com,,,com,News
+etonline.com,,,com,Entertainment and Arts
+care.com,,,com,Job Search
+coursera.org,,,org,Educational Institutions
+spendwithpennies.com,,,com,Home and Garden
+tadpoles.com,,,com,Shopping
+vons.com,,,com,Shopping
+webtoons.com,,,com,Entertainment and Arts
+epocrates.com,,,com,Health and Medicine
+yeti.com,,,com,Shopping
+techradar.com,,,com,Computer and Internet Info
+ishares.com,,,com,Financial Services
+zola.com,,,com,Shopping
+whattoexpect.com,,,com,Health and Medicine
+charlotteobserver.com,,,com,News
+moneywise.com,,,com,Business and Economy
+officedepot.com,,,com,Shopping
+seattletimes.com,,,com,News
+zerohedge.com,,,com,Business and Economy
+discounttire.com,,,com,Shopping
+mtv.com,,,com,Entertainment and Arts
+hgtv.com,,,com,Home and Garden
+compass.com,,,com,Real Estate
+military.com,,,com,Military
+spothero.com,,,com,Travel
+anntaylor.com,,,com,Shopping
+followmyhealth.com,,,com,Health and Medicine
+dotloop.com,,,com,Real Estate
+prudential.com,,,com,Financial Services
+tapmediapro.com,,,com,Business and Economy
+indystar.com,,,com,News
+bjs.com,,,com,Shopping
+comicbook.com,,,com,Entertainment and Arts
+michaelkors.com,,,com,Shopping
+disneystore.com,,,com,Shopping
+xbox.com,,,com,Games
+shareasale-analytics.com,,,com,Business and Economy
+sheknows.com,,,com,Personal Sites and Blogs
+aveda.com,,,com,Shopping
+everydollar.com,,,com,Financial Services
+mozilla.org,,,org,Computer and Internet Info
+azfamily.com,,,com,News
+kinja.com,,,com,Internet Portals
+jerseymikes.com,,,com,Food and Drink
+petfinder.com,,,com,Recreation and Hobbies
+taskrabbit.com,,,com,Business and Economy
+realsimple.com,,,com,Home and Garden
+bluecore.com,,,com,Business and Economy
+orlandosentinel.com,,,com,News
+spokeo.com,,,com,Internet Communications and Telephony
+denverpost.com,,,com,News
+whitepages.com,,,com,Internet Communications and Telephony
+loft.com,,,com,Shopping
+mensjournal.com,,,com,Entertainment and Arts
+whataburger.com,,,com,Food and Drink
+6abc.com,,,com,News
+cbc.ca,,,ca,News
+jgwentworth.com,,,com,Financial Services
+bandlab.com,,,com,Music
+fansided.com,,,com,Sports
+theathletic.com,,,com,Sports
+cognitoforms.com,,,com,Computer and Internet Info
+kraken.com,,,com,Cryptocurrency
+snopes.com,,,com,News
+beenverified.com,,,com,Business and Economy
+groupme.com,,,com,Internet Communications and Telephony
+offerup.com,,,com,Shopping
+estatesales.net,,,net,Real Estate
+whitehouse.gov,,,gov,Government
+goodmorningamerica.com,,,com,Entertainment and Arts
+dropboxstatic.com,,,com,Online Storage and Backup
+yardbarker.com,,,com,Sports
+polygon.com,,,com,Entertainment and Arts
+space.com,,,com,Reference and Research
+scribd.com,,,com,Internet Portals
+hertz.com,,,com,Travel
+texasroadhouse.com,,,com,Food and Dining
+carrabbas.com,,,com,Food and Dining
+betterment.com,,,com,Financial Services
+fox2now.com,,,com,News
+zazzle.com,,,com,Shopping
+thenorthface.com,,,com,Shopping
+fender.com,,,com,Shopping
+nbc12.com,,,com,News
+lucidmotors.com,,,com,Motor Vehicles
+westernunion.com,,,com,Financial Services
+liberty.edu,,,edu,Educational Institutions
+13abc.com,,,com,News
+crackerbarrel.com,,,com,Shopping
+fantasypros.com,,,com,Sports
+abc7chicago.com,,,com,News
+hottopic.com,,,com,Shopping
+marieclaire.com,,,com,Entertainment and Arts
+torrid.com,,,com,Shopping
+keyringapp.com,,,com,Computer and Internet Info
+tinder.com,,,com,Dating
+digitaltrends.com,,,com,Computer and Internet Info
+mn.gov,,,gov,Government
+nclottery.com,,,com,Gambling
+vuoriclothing.com,,,com,Shopping
+yellowpages.com,,,com,Business and Economy
+heb.com,,,com,Shopping
+landsend.com,,,com,Shopping
+barclaycardus.com,,,com,Financial Services
+forever21.com,,,com,Shopping
+thewrap.com,,,com,News
+doubledowncasino2.com,,,com,Gambling
+fullstory.com,,,com,Business and Economy
+rentcafe.com,,,com,Real Estate
+golfgalaxy.com,,,com,Shopping
+sleepnumber.com,,,com,Shopping
+olivegarden.com,,,com,Food and Dining
+budget.com,,,com,Business and Economy
+aldi.us,,,us,Shopping
+livestream.com,,,com,Streaming Media
+eater.com,,,com,Entertainment and Arts
+leafly.com,,,com,Marijuana
+nba.com,,,com,Sports
+express-scripts.com,,,com,Health and Medicine
+in.gov,,,gov,Government
+smoothieking.com,,,com,Food and Beverage
+mcafee.com,,,com,Computer and Internet Info
+carters.com,,,com,Shopping
+howstuffworks.com,,,com,Reference and Research
+weedmaps.com,,,com,Marijuana
+match.com,,,com,Dating
+harristeeter.com,,,com,Shopping
+mybobs.com,,,com,Shopping
+orkin.com,,,com,Home and Garden
+sacbee.com,,,com,News
+stockx.com,,,com,Shopping
+celebritycruises.com,,,com,Travel
+coach.com,,,com,Shopping
+alamy.com,,,com,Internet Portals
+costcotravel.com,,,com,Travel
+buildertrend.net,,,net,Business and Economy
+keloland.com,,,com,News
+thespruceeats.com,,,com,Home and Garden
+constantcontact.com,,,com,Business and Economy
+wordpress.com,,,com,Computer and Internet Info
+ksl.com,,,com,Internet Portals
+fubo.tv,,,tv,Streaming Media
+baltimoresun.com,,,com,News
+bustle.com,,,com,Entertainment and Arts
+godaddy.com,,,com,Computer and Internet Info
+meta.com,,,com,Social Networking
+tvline.com,,,com,Entertainment and Arts
+peoplefinders.com,,,com,Search Engines
+westernjournal.com,,,com,News
+duluthtrading.com,,,com,Shopping
+boston.com,,,com,News
+vox.com,,,com,News
+apartmenttherapy.com,,,com,Home and Garden
+travelzoo.com,,,com,Travel
+partycity.com,,,com,Shopping
+guestreservations.com,,,com,Travel
+doximity.com,,,com,Health and Medicine
+jabra.com,,,com,Shopping
+zennioptical.com,,,com,Shopping
+shopstyle.com,,,com,Shopping
+kcci.com,,,com,News
+mccormick.com,,,com,Business and Economy
+remax.com,,,com,Real Estate
+labcorp.com,,,com,Health and Medicine
+tsa.gov,,,gov,Government
+therealreal.com,,,com,Shopping
+kidsfootlocker.com,,,com,Shopping
+ariat.com,,,com,Shopping
+dndbeyond.com,,,com,Games
+trustpilot.com,,,com,Business and Economy
+narvar.com,,,com,Business and Economy
+wendys.com,,,com,Business and Economy
+fox10phoenix.com,,,com,News
+timeout.com,,,com,Entertainment and Arts
+okcupid.com,,,com,Dating
+feed.fm,,,fm,Music
+nyc.gov,,,gov,Government
+fastcompany.com,,,com,Business and Economy
+jsonline.com,,,com,News
+dollartree.com,,,com,Shopping
+pgatour.com,,,com,Sports
+wsoctv.com,,,com,News
+fastpeoplesearch.com,,,com,Search Engines
+goerie.com,,,com,News
+brides.com,,,com,Recreation and Hobbies
+uscis.gov,,,gov,Government
+horoscope.com,,,com,Entertainment and Arts
+backcountry.com,,,com,Shopping
+tn.gov,,,gov,Government
+kia.com,,,com,Motor Vehicles
+mass.gov,,,gov,Government
+nola.com,,,com,News
+mentalfloss.com,,,com,Entertainment and Arts
+pbskids.org,,,org,Entertainment and Arts
+jw.org,,,org,Religion
+akc.org,,,org,Recreation and Hobbies
+concursolutions.com,,,com,Business and Economy
+abc7ny.com,,,com,News
+greatwolf.com,,,com,Travel
+cengage.com,,,com,Educational Institutions
+credible.com,,,com,Financial Services
+uptodate.com,,,com,Health and Medicine
+flyfrontier.com,,,com,Travel
+wgu.edu,,,edu,Educational Institutions
+lunosoftware.com,,,com,Computer and Internet Info
+squarespace.com,,,com,Web Hosting
+carecredit.com,,,com,Financial Services
+swagbucks.com,,,com,Shopping
+sketchfab.com,,,com,Computer and Internet Info
+flightradar24.com,,,com,Travel
+livescience.com,,,com,Science
+tirerack.com,,,com,Motor Vehicles
+pro-football-reference.com,,,com,Sports
+scooterscoffee.com,,,com,Food and Drink
+punchbowl.com,,,com,Social Networking
+nianticlabs.com,,,com,Games
+marcustheatres.com,,,com,Entertainment and Arts
+medicinenet.com,,,com,Health and Medicine
+scorestream.com,,,com,Sports
+cinemablend.com,,,com,Entertainment and Arts
+tunein.com,,,com,Internet Communications and Telephony
+bravotv.com,,,com,Entertainment and Arts
+gettyimages.com,,,com,Internet Communications and Telephony
+rbfcu.org,,,org,Financial Services
+dailycaller.com,,,com,News
+oann.com,,,com,News
+shaws.com,,,com,Shopping
+biblehub.com,,,com,Religion
+farfetch.com,,,com,Shopping
+abc13.com,,,com,News
+winndixie.com,,,com,Shopping
+pluto.tv,,,tv,Streaming Media
