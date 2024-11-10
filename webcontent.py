@@ -89,7 +89,7 @@ def fetch_content(url, use_selenium=False):
 
 
 
-df = pd.read_csv('labeledurls.csv')
+df = pd.read_csv('unfetched.csv')
 selenium_required_urls = []
 
 for index, row in df.iterrows():
@@ -111,7 +111,7 @@ for index, row in df.iterrows():
         
 selenium_df = pd.DataFrame(selenium_required_urls, columns=['url'])
    
-df.to_csv('text.csv', index=False)     
+df.to_csv('from_unfetched.csv', index=False)     
 selenium_df.to_csv('urls_requiring_selenium.csv', index=False)
     
     
