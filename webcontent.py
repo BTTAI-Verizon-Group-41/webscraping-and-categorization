@@ -89,7 +89,7 @@ def fetch_content(url, use_selenium=False):
 
 
 
-df = pd.read_csv('labeledurls.csv')
+df = pd.read_csv('unfetched.csv')
 selenium_required_urls = []
 
 for index, row in df.iterrows():
@@ -99,7 +99,10 @@ for index, row in df.iterrows():
         clean_text = fetch_content(url, use_selenium=True)
     
     # If still failed or returned "Requires Selenium", add to selenium_required_urls
-    if clean_text == "Requires Selenium" or clean_text == "" or not clean_text or "sorry" in (clean_text or "").lower() or "failed" in (clean_text or "").lower() or "not found" in (clean_text or "").lower() or "404" in (clean_text or "").lower() or "access denied" in (clean_text or "").lower() or "403" in (clean_text or "").lower() :
+    keywords = ["Requires Selenium", "", None, "sorry", "failed", "not found", "404", "access denied", "403", 'temporarily down', 'javascript', 'cookies', 'you are human', 'unusual activity', 'bot', '<script>', 'troubleshoot the problem', '<style', 'cloudflare_error', 'captcha', 'security block', 'access to this page ha been denied', 'privacy error', 'your access has been denied', 'your request has been blocked', 'an error occurred', 'there was a problem', 'js', 'captcha', '{""accountId"":', '']
+
+    # Use any() to check if clean_text matches any condition in the keywords list
+    if not clean_text or any(keyword in (clean_text or "").lower() for keyword in keywords[3:]) or clean_text in keywords[:2]:
         selenium_required_urls.append(url)
         # df.at[index, 'text_content'] = "Failed to retrieve content (Requires Selenium)"
     else:
@@ -108,7 +111,7 @@ for index, row in df.iterrows():
         
 selenium_df = pd.DataFrame(selenium_required_urls, columns=['url'])
    
-df.to_csv('labeledurls_with_content.csv', index=False)     
+df.to_csv('from_unfetched.csv', index=False)     
 selenium_df.to_csv('urls_requiring_selenium.csv', index=False)
     
     
