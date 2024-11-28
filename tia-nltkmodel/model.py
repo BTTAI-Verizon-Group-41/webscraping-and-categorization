@@ -1,9 +1,9 @@
 # Import necessary packages
 import pickle 
 import pandas as pd
-import seaborn as sns
+# import seaborn as sns
 from os.path import exists
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.model_selection import train_test_split
@@ -18,24 +18,30 @@ from nltk import pos_tag
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from nltk.tokenize import RegexpTokenizer
 from nltk.stem import WordNetLemmatizer
-from xgboost import XGBClassifier
+# from xgboost import XGBClassifier
 import numpy as np
 import re
-# from gensim.models import LdaModel
-# from gensim.corpora import Dictionar
+from gensim.models import LdaModel
+from gensim.corpora import Dictionary
 from sklearn.naive_bayes import MultinomialNB
 
 
 
 # Set up NLP tools
+# nltk.download('vader_lexicon') # Run once
+# nltk.download('wordnet') # Run once
 sia = SentimentIntensityAnalyzer()
 tokenizer = RegexpTokenizer(r'\w+')
 lemmatizer = WordNetLemmatizer()
 tfidf_vectorizer = TfidfVectorizer(max_features=1000)
 
 # Load the data
-df1 = pd.read_csv('data.csv')
-df2 = pd.read_csv('keywords_emptyText.csv')
+df1 = pd.read_csv('data.csv') # Tia
+# with open('data.csv', 'r', encoding='utf-8', errors='ignore') as file: # Athena
+#     df1 = pd.read_csv(file) # Athena
+df2 = pd.read_csv('keywords_emptyText.csv') # Tia
+# with open('keywords_emptyText.csv', 'r', encoding='utf-8', errors='ignore') as file: # Athena
+#     df2 = pd.read_csv(file) # Athena
 df = df1[~df1['url'].isin(df2['url'])]
 
 # Define text processing functions
@@ -69,7 +75,7 @@ def apply_lda(df, num_topics=10):
     corpus = [dictionary.doc2bow(text) for text in tokenized_text]
     
     lda_model = LdaModel(corpus, num_topics=num_topics, id2word=dictionary, passes=15)
-    
+
     topic_features = []
     for doc in corpus:
         topic_distribution = lda_model.get_document_topics(doc, minimum_probability=0)
@@ -90,7 +96,7 @@ def add_features_to(df):
     
     # Calculate TF-IDF
     tfidf_matrix = tfidf_vectorizer.fit_transform(df['text_cleaned'])
-    tfidf_df = pd.DataFrame(tfidf_matrix.toarray(), columns=tfidf_vectorizer.get_feature_names())
+    tfidf_df = pd.DataFrame(tfidf_matrix.toarray(), columns=tfidf_vectorizer.get_feature_names_out()) # fixed: get_feature_names
     tfidf_df = tfidf_df.add_prefix('TFIDF_')
     df = pd.concat([df.reset_index(drop=True), tfidf_df.reset_index(drop=True)], axis=1)
     

@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 from requests.exceptions import RequestException
 import requests
 from urllib.parse import urlparse
+import re
 
 # List of custom user-agent strings
 USER_AGENTS = [
@@ -23,7 +24,7 @@ USER_AGENTS = [
 
 
 # Random delay function
-def random_delay(min_delay=3, max_delay=8):
+def random_delay(min_delay=8, max_delay=15):
     time.sleep(random.uniform(min_delay, max_delay))
 
 
@@ -50,11 +51,20 @@ def fetch_content_requests(url):
         for tag in soup(['script', 'style', 'nav', 'footer', 'aside', 'iframe']):
             tag.decompose()
         clean_text = soup.get_text(separator=" ", strip=True)
+        # Remove the error messages
+        clean_text = remove_error_messages(clean_text)
         return clean_text
     except RequestException as e:
         print(f"Failed to fetch {url}: {e}")
         return None
 
+# Remove error messages mixed in the scraped contents
+def remove_error_messages(text):
+    # This only removes the words 'javascript' and 'cookies' (case-insensitive)
+    # to reduce the confusion these words might bring to the prediction,
+    # but the sentences that contain them will still be in the text.
+    text = re.sub(r'javascript|cookies', '', text, flags=re.IGNORECASE)
+    return text
 
 # Fetch content using Selenium
 def fetch_content_selenium(url):
@@ -80,6 +90,8 @@ def fetch_content_selenium(url):
         for tag in soup(['script', 'style', 'nav', 'footer', 'aside', 'iframe']):
             tag.decompose()
         clean_text = soup.get_text(separator=" ", strip=True)
+        # Remove the error messages
+        clean_text = remove_error_messages(clean_text)
         return clean_text
     except (WebDriverException, TimeoutException) as e:
         print(f"Selenium error for {url}: {e}")
@@ -94,7 +106,7 @@ def fetch_content(url, use_selenium=False):
 
     # Try requests first
     content = fetch_content_requests(url)
-    if content and "access denied" not in content.lower():
+    if content and "access denied" not in content.lower(): # content filter 1
         return content
 
     # Fallback to Selenium
@@ -106,20 +118,20 @@ def fetch_content(url, use_selenium=False):
 def main():
     df = pd.read_csv('tia-nltkmodel/keywords_emptyText.csv')
     results = []
-
     for index, row in df.iterrows():
         url = row['url']
         content = fetch_content(url, use_selenium=True)
 
-        if content:
-            # results.append({"url": url, "content": content})
+        if content and (content != url): # sometimes when failed to fetch content, content gets the url name
+            results.append({"url": url, "content": content})
             print(url + "\n" + content + "\n")
         else:
+            results.append({"url": url, "content": None})
             print(f"Failed to retrieve content for {url}")
 
-    # # Save results to a CSV
-    # results_df = pd.DataFrame(results)
-    # results_df.to_csv('scraped_data.csv', index=False)
+    # Save results to a CSV
+    results_df = pd.DataFrame(results)
+    results_df.to_csv('web_contents.csv', index=False)
 
 if __name__ == '__main__':
     main()
