@@ -131,7 +131,7 @@ def main():
 
     # Save results to a CSV
     results_df = pd.DataFrame(results)
-    results_df.to_csv('web_contents.csv', index=False)
+    results_df.to_csv('remaining_contents.csv', index=False)
 
 if __name__ == '__main__':
     main()
