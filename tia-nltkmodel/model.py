@@ -1,3 +1,6 @@
+# Athena: commented out the load data section, the TFIDF section, and the modeling section
+# Also added new read_csv line and to_csv line
+
 # Import necessary packages
 import pickle 
 import pandas as pd
@@ -36,13 +39,10 @@ lemmatizer = WordNetLemmatizer()
 tfidf_vectorizer = TfidfVectorizer(max_features=1000)
 
 # Load the data
-df1 = pd.read_csv('data.csv') # Tia
-# with open('data.csv', 'r', encoding='utf-8', errors='ignore') as file: # Athena
-#     df1 = pd.read_csv(file) # Athena
-df2 = pd.read_csv('keywords_emptyText.csv') # Tia
-# with open('keywords_emptyText.csv', 'r', encoding='utf-8', errors='ignore') as file: # Athena
-#     df2 = pd.read_csv(file) # Athena
-df = df1[~df1['url'].isin(df2['url'])]
+# df1 = pd.read_csv('data.csv') # Tia
+# df2 = pd.read_csv('keywords_emptyText.csv') # Tia
+# df = df1[~df1['url'].isin(df2['url'])]
+df = pd.read_csv('../check.csv', header=0)
 
 # Define text processing functions
 def calc_sentiment(text):
@@ -94,12 +94,12 @@ def add_features_to(df):
     df['Sentiment'] = df['text_cleaned'].apply(calc_sentiment)
     df['lexical_diversity'] = df['text_content'].apply(lexical_diversity)
     
-    # Calculate TF-IDF
-    tfidf_matrix = tfidf_vectorizer.fit_transform(df['text_cleaned'])
-    tfidf_df = pd.DataFrame(tfidf_matrix.toarray(), columns=tfidf_vectorizer.get_feature_names_out()) # fixed: get_feature_names
-    tfidf_df = tfidf_df.add_prefix('TFIDF_')
-    df = pd.concat([df.reset_index(drop=True), tfidf_df.reset_index(drop=True)], axis=1)
-    
+    # # Calculate TF-IDF
+    # tfidf_matrix = tfidf_vectorizer.fit_transform(df['text_cleaned'])
+    # tfidf_df = pd.DataFrame(tfidf_matrix.toarray(), columns=tfidf_vectorizer.get_feature_names_out()) # fixed: get_feature_names
+    # tfidf_df = tfidf_df.add_prefix('TFIDF_')
+    # df = pd.concat([df.reset_index(drop=True), tfidf_df.reset_index(drop=True)], axis=1)
+
     # Remove duplicate columns if any
     df = df.loc[:, ~df.columns.duplicated()]
     return df
@@ -112,36 +112,38 @@ df_new = add_features_to(df)
 print(df_new['category'].head(15))
 df_new['category'] = df_new['category'].astype(str)
 
-# Ensure there are no missing labels
-df_new = df_new.dropna(subset=['category'])
+df_new.to_csv('data_from_check.csv', index=False)
 
-# Define features (X) and labels (y)
-X = df_new.drop(columns=['category', 'url', 'text_content', 'text_cleaned'], errors='ignore')  # Features
-y = df_new['category']  # Labels
+# # Ensure there are no missing labels
+# df_new = df_new.dropna(subset=['category'])
 
-# Split data into train and test sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+# # Define features (X) and labels (y)
+# X = df_new.drop(columns=['category', 'url', 'text_content', 'text_cleaned'], errors='ignore')  # Features
+# y = df_new['category']  # Labels
 
-# Train the classifier
-rf = RandomForestClassifier()
-rf.fit(X_train, y_train)
-y_pred = rf.predict(X_test)
+# # Split data into train and test sets
+# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
-print("Accuracy:", accuracy_score(y_test, y_pred))
-print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
+# # Train the classifier
+# rf = RandomForestClassifier()
+# rf.fit(X_train, y_train)
+# y_pred = rf.predict(X_test)
 
-results_df = pd.DataFrame({
-    "URL": df_new.loc[X_test.index, 'url'].values,
-    "Actual": y_test.values,
-    "Predicted": y_pred
-})
-# Show misclassified samples
-misclassified = results_df[results_df["Actual"] != results_df["Predicted"]]
-misclassified.to_csv('comparison_mismatch.csv', index=False)
+# print("Accuracy:", accuracy_score(y_test, y_pred))
+# print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
 
-# Save correctly classified samples
-correctly_classified = results_df[results_df["Actual"] == results_df["Predicted"]]
-correctly_classified.to_csv('comparison_match.csv', index=False)
+# results_df = pd.DataFrame({
+#     "URL": df_new.loc[X_test.index, 'url'].values,
+#     "Actual": y_test.values,
+#     "Predicted": y_pred
+# })
+# # Show misclassified samples
+# misclassified = results_df[results_df["Actual"] != results_df["Predicted"]]
+# misclassified.to_csv('comparison_mismatch.csv', index=False)
+
+# # Save correctly classified samples
+# correctly_classified = results_df[results_df["Actual"] == results_df["Predicted"]]
+# correctly_classified.to_csv('comparison_match.csv', index=False)
 
 
 
