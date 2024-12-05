@@ -12,6 +12,8 @@ import requests
 from urllib.parse import urlparse
 import re
 
+# Accidentally closed loopnet.com, resulting in Selenium error
+
 # List of custom user-agent strings
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
