@@ -42,7 +42,7 @@ We set the goal to achieve an accuracy of at least 60%.
     - Focus on targeting specific websites e.g. phishing detection
 
 ## Individual Contributions
-(\Names are listed by last names alphabetically)\<br/>
+(Names are listed by last names alphabetically)<br/>
 Athena Bai:<br/>
 Tapuwa Kabaira:<br/>
 Chris Smith:<br/>
