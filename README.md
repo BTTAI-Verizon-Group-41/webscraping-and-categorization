@@ -11,10 +11,10 @@ The general use of website categorization include helping users to find relevant
 
 More specifically, this project aligns with verizon’s goals of:<br/>
 1. Enhancing content filtering and parental controls<br/>
-By categorizing websites, Verizon can provide more effective content filtering options for families and educational institutions, helping to protect minors from accessing inappropriate or harmful content. Improved parental control options enhance Verizon’s product offerings, making its services more attractive to households with children. This also contributes to Verizon’s brand as a family-friendly internet provider, potentially increasing customer retention.
+\indentBy categorizing websites, Verizon can provide more effective content filtering options for families and educational institutions, helping to protect minors from accessing inappropriate or harmful content. Improved parental control options enhance Verizon’s product offerings, making its services more attractive to households with children. This also contributes to Verizon’s brand as a family-friendly internet provider, potentially increasing customer retention.
 
 2. Increasing competitiveness in the telecommunications market<br/>
-It allows targeted marketing, such that verizon can strengthen partnerships with content providers. It can also potentially enhance service through traffic prioritization, and help verizon in the process of optimizing infrastructure based on categorized usage patterns and ensuring efficient resource allocation.
+\indentIt allows targeted marketing, such that verizon can strengthen partnerships with content providers. It can also potentially enhance service through traffic prioritization, and help verizon in the process of optimizing infrastructure based on categorized usage patterns and ensuring efficient resource allocation.
 
 3. Offering advanced website categorization and filtering features can help Verizon differentiate itself in the competitive telecom market.
 
