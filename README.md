@@ -35,11 +35,11 @@ We set the goal to achieve an accuracy of at least 60%.
 
 ## Potential next steps
 1. Higher accuracy
-  - Improve data quality by obtaining a larger dataset and/or using more features
-  - Hyperparameter tuning and perform grid search
+    - Improve data quality by obtaining a larger dataset and/or using more features
+    - Hyperparameter tuning and perform grid search
 2. Try different types of web categorization models
-  - Analyze images and videos on a website
-  - Focus on targeting specific websites e.g. phishing detection
+    - Analyze images and videos on a website
+    - Focus on targeting specific websites e.g. phishing detection
 
 ## Individual Contributions
 (\Names are listed by last names alphabetically)\<br/>
