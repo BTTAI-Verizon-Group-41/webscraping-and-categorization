@@ -28,7 +28,7 @@ We set the goal to achieve an accuracy of at least 60%.
 
 
 ## Results and Key Findings
-Improved model accuracy from 30% to 67% through model selection, fine-tuning and feature engineering.
+Improved model accuracy from 24% to 67% through model selection, fine-tuning and feature engineering.
 
 ## Visualizations
 
